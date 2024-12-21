@@ -1,8 +1,11 @@
 version: "3.8"
 services:
   cytex-texlive:
+    # ubuntu 18.04
     # image: ran350/cytex-texlive:0.0.1
-    build: . # if you want to build the image locally
+    # ubuntu 24.04
+    image: tamagoham/cytex-texlive:0.0.1
+    # build: . # if you want to build the image locally
     volumes:
       - ../:/workspaces/CyTeX
       - ./.latexmkrc:/root/.latexmkrc

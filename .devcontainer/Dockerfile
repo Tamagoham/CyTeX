@@ -1,5 +1,9 @@
+# ubuntu 18.04
 # ran350/cytex-texlive
 # https://hub.docker.com/r/ran350/cytex-texlive/
+# ubuntu 24.04
+# tamagoham/cytex-texlive
+# https://hub.docker.com/r/tamagoham/cytex-texlive/
 
 FROM ubuntu:24.04
 
