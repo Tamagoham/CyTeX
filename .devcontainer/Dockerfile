@@ -1,7 +1,7 @@
 # ran350/cytex-texlive
 # https://hub.docker.com/r/ran350/cytex-texlive/
 
-FROM ubuntu:18.04
+FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
